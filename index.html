@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <p>Credit Card Fraud Detecting System</p>
+      <ul>
+        <li>Home</li>
+        <li>Settings</li>
+        <li><a href="./history.html">History</a></li>
+        <li>Logout</li>
+      </ul>
+    </nav>
+    <main>
+      <div>
+        <h3 class="headingOne">Settings</h3>
+      </div>
+
+      <!-- Left Section -->
+      <section>
+        <!-- Top -->
+        <h3 style="font-family: cursive">Per Transaction Limit</h3>
+        <section class="sections">
+          <form action="/" method="post">
+            <h3 style="margin-bottom: 20px; font-family: cursive">
+              Transaction Limit
+            </h3>
+            <input type="text" placeholder="Current limit: 10000" />
+            <button class="btn1">Update</button>
+          </form>
+        </section>
+
+        <!-- Bottom -->
+        <section class="sections" style="margin-top: 20px">
+          <h3>Change Status</h3>
+          <form action="/" method="post">
+            <input type="checkbox" name="Active" />
+            <label for="Active">Active</label>
+            <button type="submit" class="btn1">Submit</button>
+          </form>
+        </section>
+      </section>
+
+      <!-- Right Section -->
+      <h3>Allowed Branches</h3>
+      <section class="sections">
+        <section
+          style="
+            font-family: cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <h3>Your Allowed Branches</h3>
+          <ul>
+            <li>Access Bank</li>
+            <li>GTBank PLC</li>
+            <li>First Bank Plc</li>
+          </ul>
+
+          <h3>Set Allowed Branches</h3>
+          <form
+            action="/"
+            method="post"
+            style="
+              font-family: cursive;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <div>
+              <input type="checkbox" name="Access_Bank" />
+              <label for="Access_Bank">Access Bank</label>
+            </div>
+            <div>
+              <input type="checkbox" name="FirstBankPlc" />
+              <label for="FirstBankPlc">First Bank Plc</label>
+            </div>
+            <div>
+              <input type="checkbox" name="GTBankPLC" />
+              <label for="GTBankPLC">GTBank PLC</label>
+            </div>
+            <div>
+              <input type="checkbox" name="KeystoreBank" />
+              <label for="KeystoreBank">Keystore Bank</label>
+            </div>
+            <div>
+              <input type="checkbox" name="UnityBank" />
+              <label for="UbityBank">Unity Bank</label>
+            </div>
+            <div>
+              <input type="checkbox" name="ZenithBank" />
+              <label for="ZenithBank">Zenith Bank</label>
+            </div>
+
+            <button type="submit" class="btn1">Update</button>
+          </form>
+        </section>
+      </section>
+      <section>
+        <center>
+          <img src="./img/img1.jpeg" alt="" />
+          <img src="./img/img2.jpeg" alt="" />
+        </center>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <p>Credit Card Fraud Detecting System</p>
+      <ul>
+        <li>Home</li>
+        <li>Settings</li>
+        <li>History</li>
+        <li>Logout</li>
+      </ul>
+    </nav>
+    <main>
+      <p>Settings</p>
+
+      <!-- Left Section -->
+      <section>
+        <!-- Top -->
+        <section>
+          <h3>Per Transaction Limit</h3>
+          <form action="/" method="post">
+            <h3>Transaction Limit</h3>
+            <input type="text" />
+            <button>Update</button>
+          </form>
+        </section>
+
+        <!-- Bottom -->
+        <section>
+          <h3>Change Status</h3>
+          <form action="/" method="post">
+            <input type="checkbox" name="Active" />
+            <label for="Active">Active</label>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </section>
+
+      <!-- Right Section -->
+      <section>
+        <h3>Allowed Branches</h3>
+        <section>
+          <h3>Your Allowed Branches</h3>
+          <ul>
+            <li>Access Bank</li>
+            <li>GTBank PLC</li>
+            <li>First Bank Plc</li>
+          </ul>
+
+          <h3>Set Allowed Branches</h3>
+          <form action="/" method="post">
+            <div>
+              <input type="checkbox" name="Access_Bank" />
+              <label for="Access_Bank">Access Bank</label>
+            </div>
+            <div>
+              <input type="checkbox" name="FirstBankPlc" />
+              <label for="FirstBankPlc">First Bank Plc</label>
+            </div>
+            <div>
+              <input type="checkbox" name="GTBankPLC" />
+              <label for="GTBankPLC">GTBank PLC</label>
+            </div>
+            <div>
+              <input type="checkbox" name="KeystoreBank" />
+              <label for="KeystoreBank">Keystore Bank</label>
+            </div>
+            <div>
+              <input type="checkbox" name="UnityBank" />
+              <label for="UbityBank">Unity Bank</label>
+            </div>
+            <div>
+              <input type="checkbox" name="ZenithBank" />
+              <label for="ZenithBank">Zenith Bank</label>
+            </div>
+
+            <button type="submit">Update</button>
+          </form>
+        </section>
+      </section>
+    </main>
+    <main>
+      <section>
+        <h3>Transaction History</h3>
+        <section>
+          <div>
+            <h4>User name</h4>
+            <p>Mr Tester</p>
+            <p>Mr Tester</p>
+            <p>Mr Tester</p>
+            <p>Mr Tester</p>
+          </div>
+          <div>
+            <h4>Branch Name</h4>
+            <p>GTBankPLC</p>
+            <p>GTBankPLC</p>
+            <p>GTBankPLC</p>
+            <p>GTBankPLC</p>
+          </div>
+          <div>
+            <h4>Amount</h4>
+            <p>200</p>
+            <p>200</p>
+            <p>200</p>
+            <p>200</p>
+          </div>
+          <div>
+            <h4>Transaction Date & Time</h4>
+            <p>2022-03-29 17:07:09</p>
+            <p>2022-03-29 17:07:09</p>
+            <p>2022-03-09 13:07:09</p>
+            <p>2022-03-07 15:07:09</p>
+          </div>
+        </section>
+      </section>
+
+      <!-- Bottom Section -->
+      <section>
+        <h3>Blocking History</h3>
+        <section>
+          <div>
+            <h4>Branch Name</h4>
+            <p>Unity Bank</p>
+            <p>Zenith Bank</p>
+            <p>KeystoreBank</p>
+          </div>
+          <div>
+            <h4>Account User Name</h4>
+            <p>Mr Tester</p>
+            <p>Mr Tester</p>
+            <p>Mr Tester</p>
+            <p>Mr Tester</p>
+          </div>
+          <div>
+            <h4>Transaction Date & Time</h4>
+            <p>2022-03-29 17:07:09</p>
+            <p>2022-03-29 17:07:09</p>
+            <p>2022-03-09 13:07:09</p>
+            <p>2022-03-07 15:07:09</p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
